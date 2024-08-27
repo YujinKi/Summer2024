@@ -5,7 +5,7 @@ library(glmnet)
 library(selectiveInference)
 library(ggplot2)
 library(MASS)
-rm(list = ls())
+library(reshape2)
 
 n = 60
 p = 45
