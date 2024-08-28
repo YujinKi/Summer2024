@@ -7,9 +7,12 @@ The project "Post-Selection Inference in Linear Regression: The Impact of Select
 
 ## R codes 
 
-There are five R files which are the codes for each corresponding scenario - all non-zero true coefficients, $p$ approaching $n$, $p$ exceeding $n$, 5-fold cross-validation, and $p$ exceeding $n$ with all non-zero true coefficients where $n$ is the number of observations and $p$ is the number of covariates. The following table presents brief information of each scenario but the detailed scenarios can be seen in the thesis. 
+There are five R files which are the codes for each corresponding scenario - all non-zero true coefficients, $p$ approaching $n$, $p$ exceeding $n$, 5-fold cross-validation, and $p$ exceeding $n$ with all non-zero true coefficients where $n$ is the number of observations and $p$ is the number of covariates. 
 
-| Scenarios                                               | $n$ | $p$ | Number of <br> non-zero coefficients | Number of <br> cross-validation folds | 
+
+The following table presents brief information of each scenario but the detailed scenarios can be seen in the thesis. 
+
+| Scenarios                                               | $n$ (Number of <br> observations) | $p$ (Number of <br> variables)| Number of <br> non-zero coefficients | Number of <br> cross-validation folds | 
 | :-----------------------------------------------------: | :-: | :-: | :----------------------------:  | :--------------------------: | 
 | all non-zero true coefficient                           | 60  | 18  | 18                              | 10 | 
 | $p$ approaching $n$                                     | 60  | 45  | 10                              | 10 |
